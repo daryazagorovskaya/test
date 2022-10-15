@@ -17,12 +17,6 @@ import java.time.Duration;
 public class SauceDemo {
 
     WebDriver driver;
-    @BeforeClass
-    public void weew(){
-
-    }
-@AfterGroups
-@AfterMethod
 
     public WebDriver setUp () {
         WebDriverManager.chromedriver().setup();
